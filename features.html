@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survivors Features - Game Content & Updates</title>
+    <meta name="description" content="Explore all the exciting features of Monster Survivors, including characters, weapons, power-ups, and game modes.">
+    <link rel="canonical" href="https://monstersurvivors.com/features">
+    <meta name="keywords" content="Monster Survivors, game features, characters, weapons, power-ups, game modes">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        apple: {
+                            blue: '#007AFF',
+                            gray: '#8E8E93',
+                            green: '#34C759',
+                            indigo: '#5856D6',
+                            orange: '#FF9500',
+                            pink: '#FF2D55',
+                            purple: '#AF52DE',
+                            red: '#FF3B30',
+                            teal: '#5AC8FA',
+                            yellow: '#FFCC00',
+                            dark: '#1D1D1F',
+                            light: '#F5F5F7'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-apple-light text-apple-dark font-sans">
+    <header class="bg-apple-dark text-white py-6">
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-between items-center">
+                <a href="/" class="text-2xl font-bold text-apple-orange">MonsterSurvivors.com</a>
+                <div class="hidden md:flex space-x-6">
+                    <a href="/about.html" class="hover:text-apple-orange transition">About</a>
+                    <a href="/how-to-play.html" class="hover:text-apple-orange transition">How to Play</a>
+                    <a href="/features.html" class="text-apple-orange">Features</a>
+                    <a href="/community.html" class="hover:text-apple-orange transition">Community</a>
+                </div>
+                <button class="md:hidden text-white focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="py-12">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl md:text-5xl font-bold mb-8 text-apple-green text-center">Game Features</h1>
+            
+            <div class="max-w-4xl mx-auto space-y-8">
+                <section class="bg-white p-8 rounded-xl shadow-md">
+                    <h2 class="text-2xl font-bold mb-6 text-apple-orange">Playable Characters</h2>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="border rounded-lg p-4">
+                            <h3 class="text-xl font-bold mb-2">Warrior</h3>
+                            <p class="text-gray-600">A balanced character with high health and moderate damage. Perfect for beginners.</p>
+                            <ul class="list-disc list-inside mt-2 text-gray-600">
+                                <li>Starting Health: 100</li>
+                                <li>Starting Damage: 10</li>
+                                <li>Special Ability: Shield Block</li>
+                            </ul>
+                        </div>
+                        <div class="border rounded-lg p-4">
+                            <h3 class="text-xl font-bold mb-2">Archer</h3>
+                            <p class="text-gray-600">A ranged specialist with high damage but lower health. Great for experienced players.</p>
+                            <ul class="list-disc list-inside mt-2 text-gray-600">
+                                <li>Starting Health: 80</li>
+                                <li>Starting Damage: 15</li>
+                                <li>Special Ability: Rapid Fire</li>
+                            </ul>
+                        </div>
+                        <div class="border rounded-lg p-4">
+                            <h3 class="text-xl font-bold mb-2">Mage</h3>
+                            <p class="text-gray-600">A powerful spellcaster with area damage abilities. Challenging but rewarding.</p>
+                            <ul class="list-disc list-inside mt-2 text-gray-600">
+                                <li>Starting Health: 70</li>
+                                <li>Starting Damage: 20</li>
+                                <li>Special Ability: Fireball</li>
+                            </ul>
+                        </div>
+                        <div class="border rounded-lg p-4">
+                            <h3 class="text-xl font-bold mb-2">Rogue</h3>
+                            <p class="text-gray-600">A fast and agile character with high mobility. Perfect for hit-and-run tactics.</p>
+                            <ul class="list-disc list-inside mt-2 text-gray-600">
+                                <li>Starting Health: 90</li>
+                                <li>Starting Damage: 12</li>
+                                <li>Special Ability: Dash</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="bg-white p-8 rounded-xl shadow-md">
+                    <h2 class="text-2xl font-bold mb-6 text-apple-orange">Weapons & Power-ups</h2>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h3 class="text-xl font-bold mb-4">Basic Weapons</h3>
+                            <ul class="list-disc list-inside space-y-2 text-gray-600">
+                                <li>Sword - Close range melee weapon</li>
+                                <li>Bow - Long range projectile weapon</li>
+                                <li>Staff - Magic-based weapon</li>
+                                <li>Dagger - Fast melee weapon</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-4">Evolved Weapons</h3>
+                            <ul class="list-disc list-inside space-y-2 text-gray-600">
+                                <li>Greatsword - Enhanced sword with area damage</li>
+                                <li>Crossbow - Powerful bow with piercing shots</li>
+                                <li>Archmage Staff - Advanced staff with elemental effects</li>
+                                <li>Assassin's Blade - Deadly dagger with critical hits</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="bg-white p-8 rounded-xl shadow-md">
+                    <h2 class="text-2xl font-bold mb-6 text-apple-orange">Game Modes</h2>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="border rounded-lg p-4">
+                            <h3 class="text-xl font-bold mb-2">Classic Mode</h3>
+                            <p class="text-gray-600">The original endless survival experience. Fight waves of increasingly difficult enemies and try to survive as long as possible.</p>
+                        </div>
+                        <div class="border rounded-lg p-4">
+                            <h3 class="text-xl font-bold mb-2">Boss Rush</h3>
+                            <p class="text-gray-600">Face off against powerful boss monsters in quick succession. Perfect for testing your build and skills.</p>
+                        </div>
+                        <div class="border rounded-lg p-4">
+                            <h3 class="text-xl font-bold mb-2">Challenge Mode</h3>
+                            <p class="text-gray-600">Special challenges with unique rules and conditions. Complete them to earn exclusive rewards.</p>
+                        </div>
+                        <div class="border rounded-lg p-4">
+                            <h3 class="text-xl font-bold mb-2">Daily Run</h3>
+                            <p class="text-gray-600">A new challenge every day with special modifiers. Compete with other players on the global leaderboard.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="bg-white p-8 rounded-xl shadow-md">
+                    <h2 class="text-2xl font-bold mb-6 text-apple-orange">Progression System</h2>
+                    <div class="space-y-4">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Character Progression</h3>
+                            <p class="text-gray-600">Unlock new characters and abilities by completing achievements and challenges. Each character has unique starting weapons and special abilities.</p>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Weapon Evolution</h3>
+                            <p class="text-gray-600">Max out your weapons to unlock their evolved forms, which provide unique and powerful effects.</p>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Achievements</h3>
+                            <p class="text-gray-600">Complete various in-game challenges to earn achievements and special rewards.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="bg-white p-8 rounded-xl shadow-md">
+                    <h2 class="text-2xl font-bold mb-6 text-apple-orange">Regular Updates</h2>
+                    <p class="text-lg text-gray-600">We're constantly working on new content and improvements. Recent updates include:</p>
+                    <ul class="list-disc list-inside mt-4 space-y-2 text-gray-600">
+                        <li>New character: The Necromancer</li>
+                        <li>Additional weapon evolutions</li>
+                        <li>New game mode: Survival Arena</li>
+                        <li>Quality of life improvements</li>
+                        <li>Bug fixes and balance adjustments</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-apple-dark text-white py-8 mt-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p class="text-apple-orange font-bold text-xl mb-2">Monster Survivors</p>
+                    <p class="text-sm text-apple-gray">© 2023 MonsterSurvivors.com. All rights reserved.</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-apple-gray hover:text-apple-orange transition">Privacy Policy</a>
+                    <a href="#" class="text-apple-gray hover:text-apple-orange transition">Terms of Service</a>
+                    <a href="#" class="text-apple-gray hover:text-apple-orange transition">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuButton = document.querySelector('button');
+            const navLinks = document.querySelector('.md\\:flex');
+            
+            menuButton.addEventListener('click', function() {
+                navLinks.classList.toggle('hidden');
+                navLinks.classList.toggle('flex');
+                navLinks.classList.toggle('flex-col');
+                navLinks.classList.toggle('absolute');
+                navLinks.classList.toggle('top-16');
+                navLinks.classList.toggle('right-4');
+                navLinks.classList.toggle('bg-apple-dark');
+                navLinks.classList.toggle('p-4');
+                navLinks.classList.toggle('rounded-lg');
+                navLinks.classList.toggle('shadow-lg');
+            });
+        });
+    </script>
+</body>
+</html> 
